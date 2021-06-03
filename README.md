@@ -16,3 +16,16 @@ Main routes:
 3. /api/profiles/<pk>/tweets/<tweet_pk> ; Accepted Methods=["HEAD","GET"] and Content_Type : Application/json ;
 
 4. /api/tweets/<tweet_pk>/tweets/<comment_pk> ; Accepted Methods=["HEAD","GET"] and Content_Type : Application/json ;
+
+5. /api/tweet_likes/ or /api/tweet_likes/<tweet_like_pk> ; Accepted Methods=["POST","HEAD","PATCH","DELETE","GET","PUT"] and Content_Type : Application/json ;
+  
+6. /api/comment_likes/ or /api/comment_likes/<tweet_like_pk> ; Accepted Methods=["POST","HEAD","PATCH","DELETE","GET","PUT"] and Content_Type : Application/json ;
+  
+7. /api/tweets/tweet_likes/ or /api/tweets/tweet_likes/<tweet_like_pk> ; Accepted Methods=["HEAD","GET"] and Content_Type : Application/json ;
+  
+8. 7. /api/comments/comment_likes/ or /api/comments/comment_likes/<comment_like_pk> ; Accepted Methods=["HEAD","GET"] and Content_Type : Application/json ;
+  
+  
+ NB: As every project needs improvement .This project could enhance using a python grapgql server to resolve complexe relationship between different entities or models for 
+complexes routhing .Graph technology is the cutting edge of web server technology and it's the best solution for implementing a complexe routing web technology in my humble
+opinion.
