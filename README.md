@@ -23,7 +23,7 @@ Main routes:
   
 7. /api/tweets/tweet_likes/ or /api/tweets/tweet_likes/<tweet_like_pk> ; Accepted Methods=["HEAD","GET"] and Content_Type : Application/json ;
   
-8. 7. /api/comments/comment_likes/ or /api/comments/comment_likes/<comment_like_pk> ; Accepted Methods=["HEAD","GET"] and Content_Type : Application/json ;
+8. /api/comments/comment_likes/ or /api/comments/comment_likes/<comment_like_pk> ; Accepted Methods=["HEAD","GET"] and Content_Type : Application/json ;
   
   
  NB: As every project needs improvement .This project could enhance using a python grapgql server to resolve complexe relationship between different entities or models for 
