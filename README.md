@@ -26,6 +26,6 @@ Main routes:
 8. /api/comments/comment_likes/ or /api/comments/comment_likes/<comment_like_pk> ; Accepted Methods=["HEAD","GET"] and Content_Type : Application/json ;
   
   
- NB: As every project needs improvement .This project could enhance using a python grapgql server to resolve complexe relationship between different entities or models for 
-complexes routhing .Graph technology is the cutting edge of web server technology and it's the best solution for implementing a complexe routing web technology in my humble
+ NB: As every project needs improvement .This project could enhance using a python grapghQL server to resolve complexe relationship between different entities or models for 
+complexes routhing .GraphQL technology is the cutting edge of web server technology and it's the best solution for implementing a complexe routing web technology in my humble
 opinion.
